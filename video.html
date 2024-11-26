@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FDNHS</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <style>
+    /* Navbar Styling */
+    .navbar {
+      background-color: #007bff !important; /* Blue color */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar .nav-link {
+      color: white !important; /* White text for links */
+      font-size: 1rem;
+    }
+    .navbar .nav-link:hover {
+      color: #ffdd57 !important; /* Highlight color on hover */
+    }
+    .navbar-brand img {
+      height: 50px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/SCHOOL.jpg" alt="School Logo">
+      FIDEL ZARCENO NATIONAL HIGH SCHOOL
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            <i class="fas fa-home"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            <i class="fas fa-info-circle"></i> About
+          </a>
+        </li>
+        <!-- Dropdown for Events -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-calendar-alt"></i> Events
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="event1.html">National Learning Camp</a></li>
+            <li><a class="dropdown-item" href="event2.html">2024 National Tech-Voc Day</a></li>
+            <li><a class="dropdown-item" href="event3.html">Foundation Day</a></li>
+            <!-- Add more events as needed -->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </li>
+        <!-- New Location Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">
+            <i class="fas fa-map-marker-alt"></i> Location
+          </a>
+        </li>
+        <!-- Add Videos Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="video.html">
+            <i class="fas fa-video"></i> Videos
+          </a>
+        </li>
+        <!-- Add Gallery Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">
+            <i class="fas fa-image"></i> Gallery
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Video Section -->
+  <section id="videos" class="video-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">School Videos</h2>
+      <p class="text-center mb-4">Explore some of the videos related to Fidel Zarceno National High School:</p>
+      <div class="row gy-4">
+        <!-- Video Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/DNrp60rbCpU" title="Video 1" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">National Learning Camp</h5>
+              <p class="card-text">An engaging learning experience to enhance students' skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/1bZxu51l8Uc" title="Video 2" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">2024 National Tech-Voc Day</h5>
+              <p class="card-text">Celebrating technical and vocational skills of students.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/-tEDH6NpI-Y" title="Video 3" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Foundation Day Highlights</h5>
+              <p class="card-text">A glimpse into our school's memorable Foundation Day events.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/zpjTnYlO3j4" title="Video 4" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">School Achievements</h5>
+              <p class="card-text">Celebrating the academic and extracurricular achievements of our students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2024 Fidel Zarceno National High School. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

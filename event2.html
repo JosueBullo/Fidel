@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FDNHS - Event 2</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <style>
+    /* Navbar Styling */
+    .navbar {
+      background-color: #007bff !important; /* Blue color */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar .nav-link {
+      color: white !important; /* White text for links */
+      font-size: 1rem;
+    }
+    .navbar .nav-link:hover {
+      color: #ffdd57 !important; /* Highlight color on hover */
+    }
+    .navbar-brand img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    /* Gallery Styling */
+    .event-gallery .event-image {
+      margin-bottom: 20px;
+    }
+    .event-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/SCHOOL.jpg" alt="School Logo">
+        FIDEL ZARCENO NATIONAL HIGH SCHOOL
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <i class="fas fa-home"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              <i class="fas fa-info-circle"></i> About
+            </a>
+          </li>
+          <!-- Dropdown for Events -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-calendar-alt"></i> Events
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="event1.html">National Learning Camp</a></li>
+              <li><a class="dropdown-item" href="event2.html">2024 National Tech-Voc Day</a></li>
+              <li><a class="dropdown-item" href="event3.html">Foundation Day</a></li>
+              <!-- Add more events as needed -->
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              <i class="fas fa-envelope"></i> Contact
+            </a>
+          </li>
+          <!-- New Location Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="location.html">
+              <i class="fas fa-map-marker-alt"></i> Location
+            </a>
+          </li>
+          <!-- Add Videos Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">
+              <i class="fas fa-video"></i> Videos
+            </a>
+          </li>
+          <!-- Add Gallery Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              <i class="fas fa-image"></i> Gallery
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Event Section -->
+  <section id="event2" class="container mt-5 pt-5">
+    <!-- Event Caption -->
+    <div class="event-caption">
+      <h2 class="display-4">2024 National Tech-Voc Day</h2>
+      <p class="lead">August 29, 2024
+        To commemorate the 2024 National Tech-Voc Day, the Fidel Zarceno National High School celebrates it with a Forum and Skills Competition in ICT, Home Economics, and Industrial Arts.  
+        Dr. Ariel Reckonette Villanueva, Vocational School Superintendent of Leon Ganzon Polytechnic College (TESDA Administered School) serves as our guest speaker. It was a fun-filled day. Thank you, everyone.</p>
+    </div>
+
+    <!-- Event Gallery -->
+    <div class="event-gallery row">
+      <!-- Image 1 -->
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="event-image">
+          <img src="images/event2-image1.jpg" alt="Event Image 1">
+        </div>
+      </div>
+      <!-- Image 2 -->
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="event-image">
+          <img src="images/event2-image2.jpg" alt="Event Image 2">
+        </div>
+      </div>
+      <!-- Image 3 -->
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="event-image">
+          <img src="images/event2-image3.jpg" alt="Event Image 3">
+        </div>
+      </div>
+      <!-- Image 4 -->
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="event-image">
+          <img src="images/event2-image4.jpg" alt="Event Image 4">
+        </div>
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5">
+    <div class="container">
+      <p>&copy; 2024 Fidel Zarceno National High School. All Rights Reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FDNHS</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <style>
+    /* Navbar Styling */
+    .navbar {
+      background-color: #007bff !important; /* Blue color */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar .nav-link {
+      color: white !important; /* White text for links */
+      font-size: 1rem;
+    }
+    .navbar .nav-link:hover {
+      color: #ffdd57 !important; /* Highlight color on hover */
+    }
+    .navbar-brand img {
+      height: 50px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/SCHOOL.jpg" alt="School Logo">
+      FIDEL ZARCENO NATIONAL HIGH SCHOOL
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            <i class="fas fa-home"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            <i class="fas fa-info-circle"></i> About
+          </a>
+        </li>
+        <!-- Dropdown for Events -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-calendar-alt"></i> Events
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="event1.html">National Learning Camp</a></li>
+            <li><a class="dropdown-item" href="event2.html">2024 National Tech-Voc Day</a></li>
+            <li><a class="dropdown-item" href="event3.html">Foundation Day</a></li>
+            <!-- Add more events as needed -->
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </li>
+        <!-- New Location Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">
+            <i class="fas fa-map-marker-alt"></i> Location
+          </a>
+        </li>
+        <!-- Add Videos Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="video.html">
+            <i class="fas fa-video"></i> Videos
+          </a>
+        </li>
+        <!-- Add Gallery Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">
+            <i class="fas fa-image"></i> Gallery
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+<!-- Location Section -->
+<section id="location" class="container mt-5 pt-5 location-info">
+    <h2 class="text-center mb-4">Location of Fidel Zarceno National High School</h2>
+    <p class="text-center">Fidel Zarceno National High School is located at:</p>
+    <p class="text-center">
+      <strong>Address:</strong> Cawayan, Carles, Iloilo, Philippines<br>
+      <strong>Contact Number:</strong> 09102227020
+    </p>
+  
+    <!-- Map Images Layout -->
+    <div class="row text-center">
+      <div class="col-md-6 mb-3">
+        <img src="images/map1.png" alt="Map of Fidel Zarceno National High School 1" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <img src="images/map2.png" alt="Map of Fidel Zarceno National High School 2" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  
+    <!-- Google Maps Embed -->
+    <div class="row mt-4">
+      <div class="col-12">
+        <h3 class="text-center mb-3">Find Us on Google Maps</h3>
+        <div class="ratio ratio-16x9">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.417520715245!2d123.123456!3d10.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33066b28f91c123%3A0xabcd1234efgh5678!2sFidel%20Zarceno%20National%20High%20School!5e0!3m2!1sen!2sph!4v1700000000000!5m2!1sen!2sph" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer (optional) -->
+  <footer class="text-center mt-5">
+    <div class="container">
+      <p>&copy; 2024 Fidel Zarceno National High School. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
